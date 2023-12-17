@@ -1,0 +1,18 @@
+.game {
+    position: relative;
+    width: 460px;
+    height: 680px;
+    background-color: #87ceeb;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+.bird {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: #ff4500;
+    border-radius: 50%;
+}
+  
