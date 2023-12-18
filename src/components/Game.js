@@ -39,7 +39,6 @@ const Game = () => {
   return (
     <div className="game" onClick={() => jump(setGravity)}>
       <div className="bird" style={{ top: `${birdPosition}px` }}></div>
-      <div className="grass"></div>
       <div className="ground"></div>
     </div>
   );
